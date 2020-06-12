@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Contact Me</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav pull">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              Página Principal
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="servicios.html" class="nav-link">
+              Nuestros Servicios
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="portafolio.html" class="nav-link">
+              Portafolio
+            </a>
+          </li>
+          <li class="nav-item current">
+            <a href="contactenos.html" class="nav-link">
+              Contáctanos
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="contact">
+      <h1 class="lg-heading contactanos">
+        <span class="text-secondary">Contáctanos</span>
+      </h1>
+
+
+    <div id="section">
+      <section class="contact-wrap">
+        <form action="send_form.php" class="contact-form" method="post">
+          <div class="col-sm-6">
+            <div class="input-block">
+              <label for="">Nombre</label>
+              <input type="text" name="name" class="form-control" />
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="input-block">
+              <label for="">Empresa</label>
+              <input type="text" name="company" class="form-control" />
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="input-block">
+              <label for="">Teléfono</label>
+              <input type="text" name="phone" class="form-control" />
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="input-block">
+              <label for="">Email</label>
+              <input type="email" name="email" class="form-control" />
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="input-block textarea">
+              <label for="">Mensaje</label>
+              <textarea rows="3" type="text" name="message" class="form-control"></textarea>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <button class="square-button">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </div>
+
+    <footer id="main-footer">
+      GW Ingenieros. 2020
+    </footer>
+
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
