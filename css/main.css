@@ -1,9 +1,21 @@
+h1 {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 600;
+}
+
 .textmenu {
   display: inline-block;
   position: relative;
   float: right;
   margin-right: 4.5rem;
   margin-top: 1.7rem;
+  font-family: "Comfortaa", sans-serif;
+  font-weight: 700;
 }
 
 .menu-btn {
@@ -126,7 +138,7 @@ body {
   color: #202020;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Montserrat", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
 body#bg-img {
@@ -221,6 +233,10 @@ main#home h1 {
   align-self: center;
   border-radius: 50%;
   border: #0b0085 3px solid;
+}
+
+#pullup .bio-image {
+  margin-top: 2.78rem;
 }
 
 .about-info .bio {
@@ -371,7 +387,7 @@ main#home h1 {
   }
 
   .about-info .but {
-    margin: 0.5rem;
+    margin: 0rem;
   }
 }
 
