@@ -366,7 +366,13 @@ main#home h1 {
   padding: 1rem;
   background: #2b2b2b;
   color: #fff;
-  height: 60px;
+  height: 80px;
+}
+
+.hiding {
+  pointer-events: none;
+  cursor: default;
+  color: #2b2b2b;
 }
 
 @media screen and (min-width: 1171px) {
@@ -487,6 +493,140 @@ main#home h1 {
 
   .pull {
     padding-bottom: 10rem;
+  }
+
+  .hiding {
+    pointer-events: all;
+    cursor: default;
+  }
+
+  #modalWindow,
+  #modalWindow1,
+  #modalWindow2,
+  #modalWindow3,
+  #modalWindow4 {
+    position: fixed;
+    font-family: arial, helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.4);
+    /* background: #fff; */
+    z-index: 99999;
+    opacity: 0;
+    transition: opacity 400ms linear;
+    pointer-events: none;
+  }
+  #modalWindow:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  #modalWindow1:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  #modalWindow2:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  #modalWindow3:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  #modalWindow4:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  #modalWindow > div {
+    width: 300px;
+    height: 740px;
+    position: relative;
+    margin: 10% auto;
+    padding: 20px 20px 13px 20px;
+    border: solid;
+    border-color: #00c061;
+    border-width: 2px;
+    background: #fff;
+    border-radius: 10px;
+    /* width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2em;
+    background: #fff; */
+  }
+
+  #modalWindow1 > div {
+    width: 300px;
+    height: 510px;
+    position: relative;
+    margin: 40% auto;
+    padding: 20px 20px 13px 20px;
+    border: solid;
+    border-color: #00c061;
+    border-width: 2px;
+    background: #fff;
+    border-radius: 10px;
+  }
+
+  #modalWindow2 > div {
+    width: 300px;
+    height: 700px;
+    position: relative;
+    margin: 15% auto;
+    padding: 20px 20px 13px 20px;
+    border: solid;
+    border-color: #00c061;
+    border-width: 2px;
+    background: #fff;
+    border-radius: 10px;
+  }
+
+  #modalWindow3 > div {
+    width: 300px;
+    height: 500px;
+    position: relative;
+    margin: 30% auto;
+    padding: 20px 20px 13px 20px;
+    border: solid;
+    border-color: #00c061;
+    border-width: 2px;
+    background: #fff;
+    border-radius: 10px;
+  }
+
+  #modalWindow4 > div {
+    width: 300px;
+    height: 330px;
+    position: relative;
+    margin: 40% auto;
+    padding: 20px 20px 13px 20px;
+    border: solid;
+    border-color: #00c061;
+    border-width: 2px;
+    background: #fff;
+    border-radius: 10px;
+  }
+
+  .fermer {
+    /* color: black; */
+    color: #fff;
+    background: #0b0085;
+    border: none;
+    outline: none;
+    border-radius: 1.5rem;
+    padding: 1rem 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .job #modalWindow h4 {
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 600;
   }
 }
 
