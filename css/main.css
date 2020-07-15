@@ -194,6 +194,10 @@ header {
   color: #0b0085;
 }
 
+.smallerh1 {
+  font-size: 4rem;
+}
+
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px);
@@ -226,7 +230,7 @@ main#home h1 {
   margin-bottom: -0.5rem;
   align-self: center;
   border-radius: 50%;
-  border: #0b0085 3px solid;
+  /* border: #0b0085 3px solid; */
 }
 
 .jobtwo .bio-image {
@@ -234,7 +238,7 @@ main#home h1 {
   margin-bottom: -0.5rem;
   align-self: center;
   border-radius: 50%;
-  border: #0b0085 3px solid;
+  /* border: #0b0085 3px solid; */
 }
 
 #pullup .bio-image {
