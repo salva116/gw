@@ -227,7 +227,7 @@ main#home h1 {
 }
 .job .bio-image {
   margin-top: 1rem;
-  margin-bottom: -0.5rem;
+  margin-bottom: 2.65rem;
   align-self: center;
   border-radius: 50%;
   /* border: #0b0085 3px solid; */
@@ -235,6 +235,22 @@ main#home h1 {
 
 .jobtwo .bio-image {
   margin-top: 4.5rem;
+  margin-bottom: -0.5rem;
+  align-self: center;
+  border-radius: 50%;
+  /* border: #0b0085 3px solid; */
+}
+
+.jobfour .bio-image {
+  margin-top: 1.5rem;
+  margin-bottom: 2.3rem;
+  align-self: center;
+  border-radius: 50%;
+  /* border: #0b0085 3px solid; */
+}
+
+.jobfive .bio-image {
+  margin-top: 3.25rem;
   margin-bottom: -0.5rem;
   align-self: center;
   border-radius: 50%;
@@ -379,6 +395,10 @@ main#home h1 {
   display: none;
 }
 
+.desktop {
+  display: none;
+}
+
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr);
@@ -489,6 +509,38 @@ main#home h1 {
   #mob {
     font-size: 1.3rem;
     margin-top: -1rem;
+  }
+
+  .job .bio-image {
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    align-self: center;
+    border-radius: 50%;
+    /* border: #0b0085 3px solid; */
+  }
+
+  .jobtwo .bio-image {
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+    align-self: center;
+    border-radius: 50%;
+    /* border: #0b0085 3px solid; */
+  }
+
+  .jobfour .bio-image {
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+    align-self: center;
+    border-radius: 50%;
+    /* border: #0b0085 3px solid; */
+  }
+
+  .jobfive .bio-image {
+    margin-top: 1.5rem;
+    margin-bottom: 0rem;
+    align-self: center;
+    border-radius: 50%;
+    /* border: #0b0085 3px solid; */
   }
 
   .but a {
