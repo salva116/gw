@@ -619,6 +619,7 @@ main#home h1 {
 
   .fermer {
     /* color: black; */
+    display: block;
     color: #fff;
     background: #0b0085;
     border: none;
