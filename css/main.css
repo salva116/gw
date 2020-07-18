@@ -545,7 +545,7 @@ main#home h1 {
 
   #modalWindow > div {
     width: 340px;
-    height: 460px;
+    height: 480px;
     position: relative;
     margin: 10% auto;
     padding: 20px 20px 13px 20px;
@@ -566,7 +566,7 @@ main#home h1 {
 
   #modalWindow1 > div {
     width: 340px;
-    height: 510px;
+    height: 540px;
     position: relative;
     margin: 10% auto;
     padding: 20px 20px 13px 20px;
@@ -592,8 +592,8 @@ main#home h1 {
   }
 
   #modalWindow3 > div {
-    width: 300px;
-    height: 410px;
+    width: 340px;
+    height: 430px;
     position: relative;
     margin: 10% auto;
     padding: 20px 20px 13px 20px;
@@ -606,7 +606,7 @@ main#home h1 {
 
   #modalWindow4 > div {
     width: 340px;
-    height: 385px;
+    height: 410px;
     position: relative;
     margin: 10% auto;
     padding: 20px 20px 13px 20px;
