@@ -420,6 +420,20 @@ main#home h1 {
   .about-info .but {
     margin: 4rem;
   }
+
+  .lgpic {
+    display: block;
+    margin-left: 30vh;
+    margin-top: 10vh;
+  }
+
+  .aligning {
+    margin-left: 31vh;
+  }
+  
+  .aligningicons {
+    margin-left: 32vh;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
